@@ -1,0 +1,70 @@
+<html>
+<head><title>Validate this form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+
+       .textBoxStyle{
+           background-color: green;
+           color: white;
+
+        }
+
+</style>
+</head>
+<body>
+        <table>
+                
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" class="inputRequired"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" class="inputRequired"></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>
+                <select id="cities" class="inputRequired">
+                    <option value="select">Please Select</option>
+                    <option value="London">London</option>
+                    <option value="New York">New York</option>
+                    <option value="Daltonganj">Daltonganj</option>
+                    <option value="Patna">Patna</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+                <td>Favourite Color</td>
+                <td>
+                <input type="radio" name="radio" class="inputRequired" value="Red">Red
+                <input type="radio" name="radio" class="inputRequired" value="Green">Green
+                <input type="radio" name="radio" class="inputRequired" value="Blue">Blue
+            </td>
+                </tr>
+        <tr>
+            <td>Contact Method</td>
+                <td>
+                    <input type="checkbox" value="Email" class="inputRequired">Email
+                    <input type="checkbox" value="Phone" class="inputRequired">Phone
+                    <input type="checkbox" value="Social Media" class="inputRequired">Social Media 
+                </td>
+        </tr>
+        <tr>
+            <td>Comments</td>
+            <td><textarea class="inputRequired"></textarea></td>
+        </tr>
+    </table>
+    <div id="output"></div>
+<script src="changeEvent.js"></script>
+</body>
+</html>

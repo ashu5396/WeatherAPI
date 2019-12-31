@@ -1,0 +1,61 @@
+
+.variant-table {
+    border-collapse: collapse;
+    vertical-align: middle;
+    border: 1px solid silver;
+}
+
+.variant-table .bg th p
+{
+ color: whitesmoke;
+ font-size:small;
+}
+.bg
+{
+    background-color: #112835;
+
+}
+.variant-table th:hover
+{
+ background-color: grey;
+}
+#variant-choose p
+{
+    text-align: center;
+}
+
+
+div .dream-car
+{
+    font-size: 25px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:500;
+}
+.insurance-icici p, .insurance-hdfc p
+{
+    text-align: center;
+}
+img.card-img-top {
+    width: 103px;
+    height: 47px;
+    margin: 14px 24px 14px;
+}
+.icici-image, .hdfc-image {
+    border-bottom: 3px solid #f8d718;
+}
+
+
+
+.card.insurance-icici, .card.insurance-hdfc {
+    width: 150px;
+    height: 211px;
+    border: 3px solid #f8d718;
+    border-radius: 5px;
+    background-color: #fffadc;
+}
+button.btn.btn-warning {
+    margin: 10px 41px 14px;
+    height: 25px;
+}

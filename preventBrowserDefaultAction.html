@@ -1,0 +1,50 @@
+<html>
+<head><title>addEventHandlerToDinamicallyCreatedElement</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+/* ul
+{
+    list-style: none;
+} */
+</style>
+</head>
+<body>
+
+        <div class="container-fluid">
+           <!-- <button id="btn">Click</button> -->
+           <div class="row">
+                <div class="col-lg-6"> 
+                    <h2>Right Click is disabled on this page. Try to right click and see what happens</h2>
+                </div>
+                <div class="col-lg-6">
+                    <a id="HyperLink" href="https://www.google.com/">Clicking on this link will not navigate you to any page</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-lg-6"> 
+                                <div id="result"></div>
+                         </div>  
+                         <div class="col-lg-6"> 
+                                <div id="hyperlink"></div>
+                         </div>       
+                </div>
+
+        </div>
+        
+   
+
+<script src="preventBrowserDefaultAction.js"></script>
+</body>
+</html>

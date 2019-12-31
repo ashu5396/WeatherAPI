@@ -1,0 +1,46 @@
+ <html>
+<head><title>jqueryImageSlideShow</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+#smallImages img
+{
+    width: 86.3px;
+    height: 80px;
+    border: 2px solid grey;
+    margin-top: 5px;
+}
+
+
+</style>
+</head>
+<body style="font-family:Arial;">
+<div class="container-fluid middle">
+   
+    <input type="button" value="Start Slide" id="btnStartSlide"/>
+    <input type="button" value="Stop Slide" id="btnStopSlide"/>
+
+    <br><br>
+    <img id="mainImage" height="500px" width="540" style="border: 2px solid red;" src="./Image/1480_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jZDk3NTBiZGI4YzdjZjhjN2I4MDkwNTM1NGRkZjZkMS5qcGc=.webp">
+        <div id="smallImages" >
+            <img src="./Image/images.jpg" alt="image not found" class="imgstyle">
+            <img src="./Image/images (1).jpg" alt="image not found" class="imgstyle">
+            <img src="./Image/maxresdefault.jpg" alt="image not found" class="imgstyle">
+            <img src="./Image/sale_9603_primary_image.jpg" alt="image not found" class="imgstyle">
+            <img src="./Image/gettyimages-504662110.jpg" alt="image not found" class="imgstyle">
+            <img src="./Image/1480_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9jZDk3NTBiZGI4YzdjZjhjN2I4MDkwNTM1NGRkZjZkMS5qcGc=.webp" alt="image not found" class="imgstyle">
+        </div>
+</div>        
+<script src="jqueryImageSlideShow.js"></script>
+</body>
+</html>
